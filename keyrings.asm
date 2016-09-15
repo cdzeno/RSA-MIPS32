@@ -180,7 +180,7 @@ Create_User:
 			sw   $t8, 12($v0)		# e  => nodo
 			sw   $v1, 16($v0)		# x  => nodo
 
-			j end2			# esco dal ciclo while
+			j end2				# esco dal ciclo while
 
 		end1:	move $t0, $t1
 			j while
